@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+}
+
+.glass-card {
+    background-image: url('assets/win11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+    
+}
+
+.sidebar {
+    height: 750px;
+    width: 90px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: all 0.3s ease;
+    
+}
+
+
+.sidebar:hover {
+    height: 750px;
+    width: 350px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: all ease-out 0.3s;
+    padding: 20px;
+}
+
+.sidebar:hover .plug {
+    width: 280px;
+    height: 55px;
+    display: flex;
+}
+
+.nav-color {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.nav-btn {
+    display: flex;
+    gap: 10px;
+    padding: 10px 5px 0 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+
+.sidebar img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+.sidebar .profile {
+    display: flex;
+    padding: 20px 20px;
+    flex-shrink: 0;
+}
+
+.main-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider {
+    height: 1px;
+    width: 300px;
+    border: 1px solid #fff ;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar .menu-p1 {
+    display: flex;
+    position: relative;
+    top: 10px;
+    margin: 20px ;
+}
+
+.sidebar .menu-p2 {
+    display: flex;
+    position: relative;
+    top: 10px;
+    margin: 15px 0 15px 12px;
+}
+
+.menu ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    flex-shrink: 0;
+    font-size: 20px;
+    
+}
+
+.menu ul li span {
+    padding: 1px 20px;
+    flex-shrink: 0;
+    font-size: 30px;
+    position: relative;
+    right: 12px;
+    font-size: 35px;
+    box-sizing: border-box;
+}
+
+.plug {
+    height: 55px;
+    width: 55px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    padding: 10px 2px;
+}
+
+.plug p {
+    color: #000;
+}
+
+.plug p > span {
+    font-size: 28px;
+    display: flex;
+    margin: 6px 12px;
+    color: #000;
+    margin: 5px 10px;
+}
